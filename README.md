@@ -2,6 +2,14 @@
 
 Website tài liệu hướng dẫn sử dụng Zalo ZNS cho doanh nghiệp và developer.
 
+## Dùng với GitBook Free
+
+Nội dung GitBook nằm trong thư mục `gitbook/`. File `.gitbook.yaml` đã cấu hình GitBook đọc thư mục này làm root tài liệu.
+
+Trong GitBook, tạo một site Basic miễn phí rồi chọn **Set up Git Sync → GitHub → `lamdaik263/zns-manual` → branch `main`**. GitBook sẽ dùng `gitbook/README.md` làm trang chủ và `gitbook/SUMMARY.md` làm menu.
+
+Gói Free phù hợp cho một người viết tài liệu công khai. Không cần dùng domain riêng, PDF export, analytics hoặc branding nâng cao cho phiên bản đầu tiên.
+
 ## Đã có trong MVP
 
 - Giao diện tài liệu 3 cột: sidebar điều hướng, nội dung bài viết, mục lục bên phải.
