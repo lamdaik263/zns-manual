@@ -20,3 +20,5 @@ Khoảng retry mặc định là 5 phút và có thể đặt trong khoảng 5�
 Không phải lỗi nào cũng retry. Lỗi thiếu số điện thoại, thiếu Template ID hoặc OA chưa kết nối có thể thất bại ngay.
 
 Với queue **Thất bại**, chọn nút retry để bắt đầu lại. Retry thủ công reset bộ đếm và tạo một chu kỳ tối đa 3 lượt mới.
+
+> 📸 **Ảnh minh họa cần bổ sung:** Chụp màn hình khu vực cài đặt giờ gửi và nút **Retry** của một queue thất bại. Che thông tin người nhận trước khi chụp.

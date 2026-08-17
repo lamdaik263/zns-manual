@@ -19,6 +19,8 @@
 9. Kiểm tra checklist, chọn **Lưu bản nháp**, sau đó chọn **Gửi Zalo**.
 10. Chọn **Đồng bộ từ Zalo** để cập nhật kết quả xét duyệt.
 
+> 📸 **Ảnh minh họa cần bổ sung:** Chụp màn hình form tạo mẫu tin, bao gồm các vùng **Loại mẫu**, **Loại thông báo**, **Logo**, **Tiêu đề**, **Nội dung**, **Biến** và **CTA**.
+
 ## Checklist trước khi gửi duyệt
 
 - Tên mẫu dài 10–60 ký tự, dễ nhận biết, không chứa tên chiến dịch tạm thời.
@@ -42,6 +44,8 @@
 Zalo kiểm tra nội dung, mục đích, logo/hình ảnh, tham số và CTA như một tổng thể. Không chỉ đổi tên mẫu rồi gửi lại. Chỉ mẫu đã duyệt/đang hoạt động mới được dùng để gửi.
 
 Nếu mẫu thiếu mã template trên Zalo, hàng đợi có thể phát sinh lỗi `ZNS_TEMPLATE_ID_MISSING`.
+
+> 📸 **Ảnh minh họa cần bổ sung:** Chụp màn hình danh sách mẫu tin có các trạng thái **Mới tạo**, **Chờ duyệt**, **Đã duyệt/Đang hoạt động** và **Bị từ chối**. Nếu có thể, chụp thêm vị trí hiển thị **Template ID**.
 
 ## Mẫu tham khảo cho thông báo hành chính
 
