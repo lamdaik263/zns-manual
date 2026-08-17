@@ -1,17 +1,22 @@
-# Theo dõi kết quả
+# Theo dõi hàng đợi gửi
 
-Sau khi xác nhận chiến dịch, mở khu vực hàng đợi hoặc báo cáo gửi để kiểm tra tiến độ.
+Vào **Thông báo ZNS → Hàng đợi gửi** để kiểm tra tiến độ. Có thể lọc theo người nhận, số điện thoại, trạng thái và kênh gửi.
 
 | Trạng thái | Ý nghĩa |
 | --- | --- |
-| Chờ gửi | Tin đang chờ hệ thống xử lý. |
-| Đang gửi | Hệ thống đang gửi tin đến người nhận. |
+| Chờ gửi | Đã tạo queue, chờ cron xử lý. |
+| Đã hẹn giờ | Chưa đến thời điểm gửi. |
+| Đang gửi | Đang được xử lý. |
+| Thử lại | Gửi lỗi tạm thời, đang chờ retry. |
 | Đã gửi | Gửi thành công. |
-| Thử lại | Hệ thống sẽ gửi lại theo cơ chế retry. |
-| Thất bại | Không thể gửi; cần kiểm tra nguyên nhân. |
+| Thất bại | Hết lượt retry hoặc lỗi không thể retry. |
+| Tạm dừng | Người dùng đã tạm dừng queue. |
 
-## Kiểm tra sau chiến dịch
+Queue đã hủy không hiển thị trong danh sách.
+
+## Sau chiến dịch
 
 - Đối chiếu số lượng tin thành công và thất bại.
-- Kiểm tra các bản ghi ở trạng thái **Thử lại** hoặc **Thất bại**.
+- Kiểm tra các bản ghi **Thử lại** hoặc **Thất bại**.
 - Kiểm tra Credit còn lại nếu dịch vụ có tính phí.
+- Kiểm tra queue cũ để tránh gửi trùng.

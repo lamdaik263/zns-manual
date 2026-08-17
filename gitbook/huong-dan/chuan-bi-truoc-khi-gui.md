@@ -7,10 +7,23 @@
 ## Checklist
 
 - [ ] Đã kết nối Zalo OA.
+- [ ] Token OA còn hiệu lực.
 - [ ] Mẫu tin đã được Zalo phê duyệt.
+- [ ] Mẫu đã đồng bộ và có Template ID trên Zalo.
 - [ ] Còn đủ Credit nếu có tính phí.
-- [ ] Có danh sách khách hàng hợp lệ.
+- [ ] Có số điện thoại hợp lệ hoặc dữ liệu Zalo phù hợp.
 - [ ] Các biến trong mẫu tin có dữ liệu tương ứng.
+
+## Quy trình tổng quát
+
+1. Kết nối Zalo OA.
+2. Tạo mẫu tin theo checklist và gửi Zalo duyệt.
+3. Đồng bộ trạng thái đến khi mẫu được duyệt và có Template ID.
+4. Chuẩn bị nguồn khách hàng.
+5. Tạo chiến dịch gửi.
+6. Theo dõi hàng đợi, retry và báo cáo.
+
+ZNS gửi qua số điện thoại có thể tính phí. Khách hàng có Zalo UID và đang theo dõi OA có thể được gửi qua kênh In-App.
 
 ## Lưu ý
 
