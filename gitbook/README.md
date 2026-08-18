@@ -2,6 +2,8 @@
 
 Tài liệu hướng dẫn sử dụng Zalo ZNS cho người dùng cuối, doanh nghiệp và developer.
 
+> Zalo hiện gọi dịch vụ là **ZBS Template Message**; giao diện hệ thống vẫn có thể hiển thị tên **ZNS**.
+
 ## Bắt đầu nhanh
 
 Nếu bạn là người dùng mới, hãy đi theo thứ tự:

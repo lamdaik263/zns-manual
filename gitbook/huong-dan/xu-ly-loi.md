@@ -46,11 +46,15 @@ Mẫu tin có thể chưa được tạo, chưa đồng bộ hoặc chưa đư�
 
 **Bạn có thể thấy:** Mẫu tùy chỉnh bị từ chối vì thiếu Logo/Hình ảnh.
 
-**Cách xử lý:** Tải logo chính thức của OA/đơn vị, chờ hệ thống trả về Media ID, lưu mẫu và gửi duyệt lại.
+**Cách xử lý:** Nếu chọn Logo, tải đủ hai phiên bản sáng/tối và chờ hệ thống trả về hai Media ID trước khi lưu mẫu.
 
 > **Mã kỹ thuật:** `-153`.
 
 > 📸 **Ảnh minh họa cần bổ sung:** Chụp màn hình khu vực tải **Logo/Hình ảnh header** và trạng thái tải thành công. Không dùng ảnh có người bệnh, trẻ em, người nổi tiếng hoặc ảnh chưa có quyền sử dụng.
+
+Nếu Zalo báo **Logo cần sử dụng nền trong suốt**, hãy kiểm tra file PNG có nền trong suốt, không phải nền trắng hoặc đen. Không dùng ảnh chụp màn hình logo. Nếu mẫu đã bị từ chối, tạo mẫu mới sau khi thay media.
+
+Zalo có thể yêu cầu điền biểu mẫu hỗ trợ tại [go.zalo.me/zbs-support](https://go.zalo.me/zbs-support). Đây là kênh hỗ trợ, không phải URL CTA của mẫu tin.
 
 ## Zalo từ chối link hoặc domain
 

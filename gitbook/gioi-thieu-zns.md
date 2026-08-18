@@ -1,5 +1,7 @@
 # Giới thiệu Zalo ZNS
 
+> Zalo hiện gọi dịch vụ là **ZBS Template Message**; giao diện hệ thống vẫn có thể hiển thị tên **ZNS**.
+
 ## Zalo ZNS là gì?
 
 Zalo Notification Service (ZNS) là dịch vụ gửi thông báo chăm sóc khách hàng qua Zalo theo một giao dịch hoặc sự kiện cụ thể. Doanh nghiệp có thể gửi các thông tin như xác nhận đơn hàng, cập nhật vận chuyển, nhắc lịch hẹn hoặc thay đổi trạng thái dịch vụ.
