@@ -19,4 +19,4 @@ Khi tra cứu lỗi, ghi lại:
 
 Các thông tin này giúp đội ngũ kỹ thuật kiểm tra nhanh hơn.
 
-> 📸 **Ảnh minh họa cần bổ sung:** Chụp màn hình **Nạp & quản lý Credit** có số dư và lịch sử tiêu Credit; chụp thêm màn hình **Báo cáo & lịch sử gửi** có bộ lọc theo chiến dịch và trạng thái.
+> **Cách tự đối chiếu:** Trong **Nạp & quản lý Credit**, kiểm tra số dư hiện tại và các giao dịch trừ Credit. Trong **Báo cáo & lịch sử gửi**, lọc theo **Chiến dịch** và **Trạng thái**, sau đó đối chiếu tổng đã gửi, thành công, thất bại và số Credit đã dùng.

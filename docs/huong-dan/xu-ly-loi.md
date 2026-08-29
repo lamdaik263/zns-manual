@@ -10,7 +10,7 @@ Khi gửi tin không thành công, hãy kiểm tra theo thứ tự bên dưới.
 4. **Kiểm tra dữ liệu:** Số điện thoại, biến dữ liệu và file Excel có đúng định dạng không?
 5. **Kiểm tra hàng đợi:** Queue có đang trong giờ cấm, đã hẹn giờ hoặc đang chờ retry không?
 
-> 📸 **Ảnh minh họa cần bổ sung:** Chụp một màn hình tổng quan hàng đợi có bộ lọc **Trạng thái**, **Kênh gửi** và **Thời điểm gửi**. Che số điện thoại và thông tin khách hàng.
+> **Cách khoanh vùng lỗi:** Trong **Hàng đợi gửi**, lọc lần lượt theo **Trạng thái**, **Kênh gửi** và **Thời điểm gửi**. Ghi lại Job ID/Campaign ID, nhưng không chia sẻ số điện thoại hay dữ liệu khách hàng.
 
 ## Không thấy mẫu tin để chọn
 
@@ -40,7 +40,7 @@ Mẫu tin có thể chưa được tạo, chưa đồng bộ hoặc chưa đư�
 
 > **Mã kỹ thuật:** `-1132`. Người dùng chỉ cần làm theo cách xử lý ở trên.
 
-> 📸 **Ảnh minh họa cần bổ sung:** Chụp màn hình khu vực CTA trong mẫu tin, chỉ rõ vị trí nhập **Nhãn nút** và **URL**.
+> **Tự kiểm tra CTA:** Trong phần CTA, đối chiếu ba trường **Nhãn nút**, **Loại CTA** và **URL**. Nhãn phải mô tả đúng trang mở ra, loại CTA phải khớp với domain và URL phải dùng HTTPS.
 
 ## Mẫu tin thiếu Logo hoặc hình ảnh đầu trang
 
@@ -50,7 +50,7 @@ Mẫu tin có thể chưa được tạo, chưa đồng bộ hoặc chưa đư�
 
 > **Mã kỹ thuật:** `-153`.
 
-> 📸 **Ảnh minh họa cần bổ sung:** Chụp màn hình khu vực tải **Logo/Hình ảnh header** và trạng thái tải thành công. Không dùng ảnh có người bệnh, trẻ em, người nổi tiếng hoặc ảnh chưa có quyền sử dụng.
+> **Tự kiểm tra media:** Sau khi tải **Logo/Hình ảnh header**, kiểm tra tên file, trạng thái tải thành công và preview Light/Dark. Chỉ dùng ảnh có quyền sử dụng, nền trong suốt khi yêu cầu và không chứa dữ liệu cá nhân.
 
 Nếu Zalo báo **Logo cần sử dụng nền trong suốt**, hãy kiểm tra file PNG có nền trong suốt, không phải nền trắng hoặc đen. Không dùng ảnh chụp màn hình logo. Nếu mẫu đã bị từ chối, tạo mẫu mới sau khi thay media.
 
@@ -60,7 +60,7 @@ Zalo có thể yêu cầu điền biểu mẫu hỗ trợ tại [go.zalo.me/zbs-
 
 **Cách xử lý:** Kiểm tra URL thực tế đang dẫn đến đâu và chọn đúng phân loại CTA. Nếu URL là website của đơn vị khác, không khai báo là website của OA. Domain phải đồng nhất với OA hoặc có quyền sử dụng.
 
-> 📸 **Ảnh minh họa cần bổ sung:** Chụp màn hình CTA có URL mẫu hợp lệ và phần chọn phân loại CTA trên hệ thống.
+> **Tự kiểm tra phân loại:** Mở URL trong trình duyệt riêng tư, ghi nhận domain và trang đích thực tế, rồi chọn loại CTA theo đúng đích đến. Không chọn chỉ dựa theo tên nút.
 
 ## Zalo từ chối hình ảnh do bản quyền
 
@@ -70,7 +70,7 @@ Zalo có thể yêu cầu điền biểu mẫu hỗ trợ tại [go.zalo.me/zbs-
 
 **Cách xử lý:** Kiểm tra file có cột `phone` hoặc `sdt`, số điện thoại hợp lệ và tên cột biến đúng với key trong mẫu tin.
 
-> 📸 **Ảnh minh họa cần bổ sung:** Chụp một file Excel mẫu chỉ gồm dữ liệu giả, có các cột `phone`, `name`, `customer_name`, `order_code` và màn hình kết quả import.
+> **File Excel tối thiểu để kiểm tra:** Dùng dữ liệu giả với các cột `phone`, `name`, `customer_name`, `order_code`. Sau khi import, cần thấy số dòng hợp lệ và tên biến được nhận diện; không dùng file chứa dữ liệu khách hàng thật để kiểm tra.
 
 ## Mini App không có khách hàng
 
@@ -86,4 +86,4 @@ Nếu đã kiểm tra các bước trên nhưng lỗi vẫn còn, gửi kèm:
 - Ảnh chụp lỗi đã che dữ liệu nhạy cảm.
 - Mã kỹ thuật nếu hệ thống hiển thị.
 
-> 📸 **Ảnh minh họa cần bổ sung:** Chụp màn hình mẫu phần thông tin chi tiết một queue lỗi, trong đó thấy Job ID, Campaign ID, trạng thái và nội dung lỗi; che tên, số điện thoại và dữ liệu khách hàng.
+> **Thông tin cần ghi nhận:** Mở chi tiết queue lỗi và sao chép **Job ID**, **Campaign ID**, **Trạng thái**, **Mã lỗi** và **Nội dung lỗi**. Khi gửi hỗ trợ, chỉ cung cấp các mã kỹ thuật; che tên, số điện thoại và dữ liệu khách hàng.

@@ -36,7 +36,7 @@ Ví dụ cột: `phone`, `name`, `customer_name`, `order_code`.
 
 File được đọc trên trình duyệt. Kiểm tra số lượng và dữ liệu biến trước khi chuyển bước.
 
-> 📸 **Ảnh minh họa cần bổ sung:** Chụp màn hình bước tải Excel và kết quả đọc file, trong đó thấy tên cột `phone`/`sdt`, số người nhận hợp lệ và các biến đã nhận diện.
+> **Tự kiểm tra sau khi tải Excel:** File phải hiện số người nhận hợp lệ lớn hơn 0; có cột `phone` hoặc `sdt`; tên các cột biến phải khớp với placeholder trong mẫu tin. Nếu hệ thống báo dòng lỗi, sửa file rồi tải lại trước khi tiếp tục.
 
 ### Khách hàng từ Mini App
 
@@ -46,7 +46,7 @@ File được đọc trên trình duyệt. Kiểm tra số lượng và dữ li�
 
 Nếu danh sách rỗng, kiểm tra nguồn khách hàng, trạng thái hoạt động và dữ liệu liên kết Zalo.
 
-> 📸 **Ảnh minh họa cần bổ sung:** Chụp màn hình nguồn **Khách hàng từ Mini App**, trong đó thấy số lượng khách hàng được tải và trạng thái liên kết Zalo.
+> **Tự kiểm tra nguồn Mini App:** Danh sách phải có số lượng khách hàng và trạng thái liên kết Zalo hợp lệ. Nếu số lượng bằng 0, kiểm tra Mini App đang hoạt động và khách hàng đã liên kết đúng OA.
 
 ## Bước 4: Đặt lịch và xác nhận
 
@@ -55,4 +55,4 @@ Nếu danh sách rỗng, kiểm tra nguồn khách hàng, trạng thái hoạt �
 
 Trước khi xác nhận, kiểm tra tên chiến dịch, mẫu tin, tổng số người nhận, nội dung và thời điểm gửi.
 
-> 📸 **Ảnh minh họa cần bổ sung:** Chụp màn hình bước xác nhận cuối cùng, trong đó thấy **Tên chiến dịch**, **Mẫu tin**, **Số người nhận**, **Kênh gửi** và lựa chọn **Gửi ngay/Hẹn giờ**.
+> **Tự kiểm tra trước khi xác nhận:** Đọc lại theo thứ tự **Tên chiến dịch → Mẫu tin → Số người nhận → Kênh gửi → Gửi ngay/Hẹn giờ**. Chỉ xác nhận khi cả năm thông tin đều đúng.

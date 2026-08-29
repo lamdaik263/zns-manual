@@ -13,9 +13,7 @@ Cho phép hệ thống sử dụng OA của doanh nghiệp để gửi tin nhắ
 5. Kiểm tra trạng thái hiển thị **Đã kết nối**.
 6. Nếu token hết hạn, chọn làm mới token hoặc kết nối lại.
 
-![Màn hình Kết nối OA & Zalo Cloud Account, nút Kết nối OA được đánh dấu](/img/01-ket-noi-oa/01-them-ket-noi-oa.png)
-
-*Màn hình **Kết nối OA & Zalo Cloud Account**, trong đó nút **Kết nối OA** được đánh dấu.*
+> **Cách nhận biết màn hình đúng:** Ở thanh điều hướng, mục **Kết nối OA & ZCA** nằm trong nhóm **Thông báo ZNS**. Trên trang này, nút **Thêm kết nối OA** thường nằm ở góc phải phía trên.
 
 ## Kết quả
 
@@ -23,8 +21,6 @@ Khi thấy trạng thái **Đã kết nối**, bạn có thể chuyển sang t�
 
 Nếu OA chưa kết nối, hàng đợi sẽ không gửi được và có thể phát sinh lỗi `ZNS_OA_NOT_CONNECTED`.
 
-![Trạng thái OA đã kết nối thành công](/img/01-ket-noi-oa/03-oa-da-ket-noi.png)
-
-*Trạng thái **Đã kết nối** sau khi chọn OA thành công. Đây là trạng thái cần đối chiếu trước khi sang bước tiếp theo.*
+> **Kiểm tra kết quả:** Thẻ OA đã chọn phải hiển thị tên OA, OA ID/App ID và nhãn màu xanh **Đã kết nối**. Nếu vẫn thấy **Chưa kết nối**, **Làm mới token** hoặc nút **Kết nối OA**, chưa chuyển sang bước tạo mẫu tin.
 
 > Nếu không thấy OA cần chọn, hãy kiểm tra tài khoản đăng nhập và quyền quản trị OA.

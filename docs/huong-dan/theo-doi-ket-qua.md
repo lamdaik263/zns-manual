@@ -14,7 +14,7 @@ Vào **Thông báo ZNS → Hàng đợi gửi** để kiểm tra tiến độ. C
 
 Queue đã hủy không hiển thị trong danh sách.
 
-> 📸 **Ảnh minh họa cần bổ sung:** Chụp màn hình **Hàng đợi gửi** có các trạng thái **Chờ gửi**, **Đã hẹn giờ**, **Đang gửi**, **Thử lại**, **Đã gửi**, **Thất bại** và **Tạm dừng**. Che số điện thoại hoặc dữ liệu khách hàng trước khi đưa lên tài liệu.
+> **Cách đọc hàng đợi:** **Chờ gửi/Đã hẹn giờ** là chưa gửi; **Đang gửi** là hệ thống đang xử lý; **Thử lại** là lỗi tạm thời; **Đã gửi** là thành công; **Thất bại** cần mở nguyên nhân; **Tạm dừng** cần người dùng tiếp tục hoặc hủy queue.
 
 ## Sau chiến dịch
 

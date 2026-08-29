@@ -21,6 +21,6 @@ Chọn đúng loại theo **đích đến thật** của nút. Mã loại đư�
 
 Link bài viết trên `bocongan.gov.vn` phải chọn **mã 7**, không chọn “Đến trang của doanh nghiệp”. Chọn sai phân loại có thể khiến Zalo từ chối mẫu dù URL vẫn mở được.
 
-> 📸 **Ảnh minh họa cần bổ sung:** Chụp phần CTA có URL mẫu và menu chọn loại CTA, đánh dấu rõ loại cần chọn cho từng đích đến.
+> **Cách tự chọn CTA:** Xác định đích đến trước, rồi chọn loại tương ứng: website của đơn vị → **Đến trang của doanh nghiệp**; trang OA → **Đến trang thông tin OA**; bài viết OA → **Đến bài viết của OA**; website/Mini App khác → **Đến trang web/Zalo Mini App khác**; số điện thoại → **Gọi điện**. Cuối cùng mở thử URL bằng cửa sổ riêng tư.
 
 > Không đưa mã công dân, thông tin sức khỏe, ảnh nhận diện hoặc thông tin nhạy cảm vào một mẫu truyền thông chung nếu không thật sự cần thiết.

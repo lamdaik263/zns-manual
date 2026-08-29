@@ -21,4 +21,4 @@ Không phải lỗi nào cũng retry. Lỗi thiếu số điện thoại, thiế
 
 Với queue **Thất bại**, chọn nút retry để bắt đầu lại. Retry thủ công reset bộ đếm và tạo một chu kỳ tối đa 3 lượt mới.
 
-> 📸 **Ảnh minh họa cần bổ sung:** Chụp màn hình khu vực cài đặt giờ gửi và nút **Retry** của một queue thất bại. Che thông tin người nhận trước khi chụp.
+> **Cách tự kiểm tra:** Mở phần cài đặt giờ gửi để xem khoảng thời gian hệ thống không gửi. Với queue **Thất bại**, chỉ chọn **Retry** sau khi đã sửa nguyên nhân; retry thủ công sẽ bắt đầu lại chu kỳ tối đa 3 lượt.

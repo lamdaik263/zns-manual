@@ -296,4 +296,4 @@ Nếu nội dung chỉ là tin tuyên truyền chung, hãy chuyển sang OA/Broa
 
 Zalo kiểm tra nội dung, mục đích, logo/hình ảnh, tham số và CTA như một tổng thể. Chỉ mẫu đã duyệt/đang hoạt động mới được dùng để gửi. Nếu mẫu thiếu mã template trên Zalo, queue có thể phát sinh lỗi `ZNS_TEMPLATE_ID_MISSING`.
 
-> 📸 **Ảnh minh họa cần bổ sung:** Chụp danh sách mẫu tin có các trạng thái **Mới tạo**, **Chờ duyệt**, **Đã duyệt/Đang hoạt động** và **Bị từ chối**, kèm vị trí hiển thị Template ID nếu có.
+> **Cách đọc danh sách mẫu:** Dùng cột **Trạng thái** để biết bước tiếp theo: **Mới tạo** là bản nháp, **Chờ duyệt** đang chờ Zalo, **Đã duyệt/Đang hoạt động** được phép dùng để gửi, còn **Bị từ chối** phải mở lý do và sửa trước khi gửi lại. Nếu có cột **Template ID**, chỉ dùng mẫu đã có mã này khi tạo chiến dịch.
