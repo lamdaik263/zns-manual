@@ -6,7 +6,7 @@ Website tài liệu hướng dẫn sử dụng Zalo ZNS cho doanh nghiệp và d
 
 Nội dung tài liệu nằm trong thư mục `docs/`. Menu được cấu hình trong `sidebars.js` và site được build bằng Docusaurus.
 
-Build production tạo static site trong thư mục `build/`, có thể deploy lên GitHub Pages, Cloudflare Pages, Vercel hoặc Netlify.
+Build production tạo static site trong thư mục `dist/`, sẵn sàng deploy trên Vercel.
 
 ## Đã có
 
