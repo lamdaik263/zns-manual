@@ -23,6 +23,8 @@ Khi thấy trạng thái **Đã kết nối**, bạn có thể chuyển sang t�
 
 Nếu OA chưa kết nối, hàng đợi sẽ không gửi được và có thể phát sinh lỗi `ZNS_OA_NOT_CONNECTED`.
 
-> 📸 **Ảnh minh họa cần bổ sung:** Chụp màn hình trạng thái **Đã kết nối** sau khi chọn OA thành công. Đây là ảnh người dùng cần đối chiếu trước khi sang bước tiếp theo.
+![Trạng thái OA đã kết nối thành công](/img/01-ket-noi-oa/03-oa-da-ket-noi.png)
+
+*Trạng thái **Đã kết nối** sau khi chọn OA thành công. Đây là trạng thái cần đối chiếu trước khi sang bước tiếp theo.*
 
 > Nếu không thấy OA cần chọn, hãy kiểm tra tài khoản đăng nhập và quyền quản trị OA.
