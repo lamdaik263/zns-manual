@@ -2,15 +2,13 @@
 
 Website tài liệu hướng dẫn sử dụng Zalo ZNS cho doanh nghiệp và developer.
 
-## Dùng với GitBook Free
+## Docusaurus
 
-Nội dung GitBook nằm trong thư mục `gitbook/`. File `.gitbook.yaml` đã cấu hình GitBook đọc thư mục này làm root tài liệu.
+Nội dung tài liệu nằm trong thư mục `docs/`. Menu được cấu hình trong `sidebars.js` và site được build bằng Docusaurus.
 
-Trong GitBook, tạo một site Basic miễn phí rồi chọn **Set up Git Sync → GitHub → `lamdaik263/zns-manual` → branch `main`**. GitBook sẽ dùng `gitbook/README.md` làm trang chủ và `gitbook/SUMMARY.md` làm menu.
+Build production tạo static site trong thư mục `build/`, có thể deploy lên GitHub Pages, Cloudflare Pages, Vercel hoặc Netlify.
 
-Gói Free phù hợp cho một người viết tài liệu công khai. Không cần dùng domain riêng, PDF export, analytics hoặc branding nâng cao cho phiên bản đầu tiên.
-
-## Đã có trong MVP
+## Đã có
 
 - Giao diện tài liệu 3 cột: sidebar điều hướng, nội dung bài viết, mục lục bên phải.
 - Nội dung mẫu cho bài “Giới thiệu Zalo ZNS”.
@@ -28,11 +26,11 @@ npm install
 npm run dev
 ```
 
-Mở URL local mà terminal in ra để xem website.
+Mở `http://localhost:3000` để xem website.
 
-## Định hướng tiếp theo
+## Build production
 
-1. Tách mỗi bài thành route hoặc file Markdown riêng.
-2. Thêm trang “Tạo Zalo OA”, “Tạo mẫu tin” và “Gửi tin đầu tiên”.
-3. Bổ sung ảnh chụp màn hình và link đến nguồn chính thức của Zalo.
-4. Thêm tìm kiếm toàn văn, form phản hồi và ngày cập nhật tự động.
+```bash
+npm run build
+npm run serve
+```

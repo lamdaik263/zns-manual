@@ -13,7 +13,7 @@ Cho phép hệ thống sử dụng OA của doanh nghiệp để gửi tin nhắ
 5. Kiểm tra trạng thái hiển thị **Đã kết nối**.
 6. Nếu token hết hạn, chọn làm mới token hoặc kết nối lại.
 
-![Màn hình Kết nối OA & Zalo Cloud Account, nút Kết nối OA được đánh dấu](../assets/01-ket-noi-oa/01-them-ket-noi-oa.png)
+![Màn hình Kết nối OA & Zalo Cloud Account, nút Kết nối OA được đánh dấu](/img/01-ket-noi-oa/01-them-ket-noi-oa.png)
 
 *Màn hình **Kết nối OA & Zalo Cloud Account**, trong đó nút **Kết nối OA** được đánh dấu.*
 

@@ -1,3 +1,10 @@
+---
+id: intro
+slug: /
+title: ZNS Manual
+sidebar_label: Trang chủ
+---
+
 # ZNS Manual
 
 Tài liệu hướng dẫn sử dụng Zalo ZNS cho người dùng cuối, doanh nghiệp và developer.
