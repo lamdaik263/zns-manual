@@ -10,6 +10,7 @@ const sidebars = {
       'huong-dan/xu-ly-loi', 'huong-dan/tham-khao-zalo',
     ]},
   ],
+  admin: [{type: 'doc', id: 'admin-hcc-mini-app', label: 'Hướng dẫn Admin HCC Mini App'}],
   developer: [{type: 'doc', id: 'developer/tong-quan-api', label: 'Tổng quan API'}],
 };
 

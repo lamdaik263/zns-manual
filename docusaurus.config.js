@@ -23,6 +23,7 @@ const config = {
       logo: {alt: 'ZNS Manual', src: 'img/favicon.svg'},
       items: [
         {type: 'docSidebar', sidebarId: 'userGuide', position: 'left', label: 'Hướng dẫn'},
+        {type: 'docSidebar', sidebarId: 'admin', position: 'left', label: 'Admin HCC'},
         {type: 'docSidebar', sidebarId: 'developer', position: 'left', label: 'Developer'},
         {href: 'https://developers.zalo.me/', label: 'Tài liệu API ↗', position: 'right'},
       ],
