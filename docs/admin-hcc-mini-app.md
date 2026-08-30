@@ -16,6 +16,8 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 ## **1.1 Đăng nhập**
 
+![Màn hình đăng nhập và chọn đơn vị](/img/admin/01-dang-nhap.png)
+
 * Truy cập địa chỉ trang quản trị, nhập Email và Mật khẩu được cấp.
 
 * Nếu tài khoản được gán cho nhiều đơn vị (nhiều xã/phường), hệ thống sẽ hiển thị thêm bước "Chọn doanh nghiệp" — chọn đúng đơn vị cần làm việc.
@@ -23,12 +25,16 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 ## **1.2 Chuyển đổi đơn vị đang quản lý**
 
+![Menu chuyển đổi đơn vị quản lý](/img/admin/02-chuyen-don-vi.png)
+
 * Với tài khoản quản lý nhiều xã/phường: bấm vào tên đơn vị ở góc trên header để mở danh sách và chuyển sang đơn vị khác.
 
 * Mọi dữ liệu hiển thị (tin tức, banner, hồ sơ dân cư...) đều thuộc riêng đơn vị đang được chọn.
 
 
 ## **1.3 Tài khoản của tôi**
+
+![Menu tài khoản quản trị](/img/admin/03-tai-khoan.png)
 
 * Bấm vào avatar góc trên bên phải → "Tài khoản" để xem thông tin cá nhân (họ tên, email, mã nhân viên, phòng ban, vai trò).
 
@@ -41,6 +47,8 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 ## **2.1 Tổng quan số liệu**
 
+![Tổng quan Dashboard](/img/admin/04-dashboard.png)
+
 * Hiển thị các chỉ số tổng quan của đơn vị (thẻ KPI), biểu đồ hoạt động theo thời gian, bản đồ vị trí và bảng số liệu nổi bật.
 
 * Đây là màn hình chỉ xem, không có thao tác chỉnh sửa.
@@ -49,6 +57,8 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 # **3\. Hành chính công**
 
 ## **3.1 Lấy số thứ tự - Lĩnh vực**
+
+![Danh sách lĩnh vực lấy số](/img/admin/05-linh-vuc-lay-so.png)
 
 * Khai báo các lĩnh vực tiếp nhận hồ sơ (VD: Hộ tịch, Đất đai...) dùng cho hệ thống lấy số thứ tự.
 
@@ -59,10 +69,14 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 ## **3.2 Lấy số thứ tự - Khung giờ**
 
+![Cấu hình khung giờ lấy số](/img/admin/06-khung-gio.png)
+
 * Khai báo các khung giờ làm việc để cấp số thứ tự (giờ bắt đầu - kết thúc, số lượng tối đa mỗi khung giờ, trạng thái hoạt động).
 
 
 ## **3.3 Phiếu đã cấp**
+
+![Danh sách phiếu đã cấp](/img/admin/07-phieu-da-cap.png)
 
 * Xem danh sách số thứ tự đã cấp cho người dân qua Mini App: số TT, mã phiếu, lĩnh vực, khung giờ, người lấy số, trạng thái.
 
@@ -72,6 +86,9 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 
 ## **3.4 Lịch công tác**
+
+![Danh sách lịch công tác](/img/admin/08-lich-cong-tac-danh-sach.png)
+![Form lịch công tác](/img/admin/09-lich-cong-tac-form.png)
 
 * Quản lý lịch làm việc của cán bộ: ngày, buổi, giờ bắt đầu/kết thúc, nội dung, địa điểm, người chủ trì, thành phần tham dự, ghi chú nội bộ.
 
@@ -95,10 +112,14 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 ## **4.2 Danh mục thông tin**
 
+![Danh mục thông tin cư dân](/img/admin/10-danh-muc-cu-dan.png)
+
 * Khai báo các danh mục dùng để phân loại hồ sơ cư dân (theo từng xã). Có thể kéo-thả để sắp xếp thứ tự hiển thị.
 
 
 ## **4.3 Duyệt chỉnh sửa**
+
+![Màn hình duyệt chỉnh sửa cư dân](/img/admin/11-duyet-chinh-sua.png)
 
 * Danh sách các yêu cầu chỉnh sửa thông tin do người dân gửi lên từ Mini App (bao gồm cả yêu cầu liên kết tài khoản Zalo với hồ sơ cư dân).
 
@@ -109,15 +130,21 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 ## **4.4 Nghi trùng**
 
+![Màn hình xử lý hồ sơ nghi trùng](/img/admin/12-nghi-trung.png)
+
 * Hệ thống tự phát hiện các hồ sơ nghi bị trùng lặp và hiển thị song song (Hồ sơ A / Hồ sơ B) để cán bộ đối chiếu và xử lý gộp/hủy.
 
 
 ## **4.5 Tài khoản Zalo**
 
+![Danh sách tài khoản Zalo](/img/admin/13-tai-khoan-zalo.png)
+
 * Danh sách tài khoản Zalo của người dân đã tương tác với Mini App/OA: số điện thoại, nguồn, trạng thái quan tâm OA, trạng thái liên kết với hồ sơ cư dân.
 
 
 ## **4.6 Danh bạ cán bộ**
+
+![Danh bạ cán bộ](/img/admin/14-danh-ba-can-bo.png)
 
 * Quản lý danh bạ cán bộ, công chức: họ tên, chức vụ, phòng ban, thông tin liên hệ.
 
@@ -127,6 +154,8 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 # **5\. Phản ánh - kiến nghị**
 
 ## **5.1 Xử lý phản ánh - kiến nghị**
+
+![Xử lý phản ánh kiến nghị](/img/admin/15-phan-anh-kien-nghi.png)
 
 * Danh sách phản ánh, kiến nghị của người dân gửi qua Mini App: người gửi, tiêu đề, lĩnh vực, mức độ ưu tiên (Thấp/Bình thường/Cao).
 
@@ -139,6 +168,9 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 ## **6.1 Danh sách và thêm tin tức**
 
+![Danh sách tin tức](/img/admin/16-danh-sach-tin-tuc.png)
+![Form thêm tin tức](/img/admin/17-form-them-tin.png)
+
 * Xem danh sách bài viết, lọc theo danh mục và trạng thái (Bản nháp/Đã xuất bản/Đã đăng).
 
 * Thêm bài mới: nhập tiêu đề, tóm tắt, ảnh bìa, nội dung (soạn thảo văn bản có định dạng), chọn danh mục.
@@ -149,10 +181,16 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 ## **6.2 Danh mục tin tức**
 
+![Danh mục tin tức](/img/admin/18-danh-muc-tin-tuc.png)
+
 * Quản lý danh mục bài viết: tên, đường dẫn (slug), thứ tự hiển thị, trạng thái hoạt động.
 
 
 ## **6.3 Nội dung trang chủ Mini App**
+
+![Bài viết nổi bật trên trang chủ Mini App](/img/admin/19-trang-chu-bai-noi-bat.png)
+![Hàng nút tắt trên trang chủ Mini App](/img/admin/20-trang-chu-nut-tat.png)
+![Khối thống kê trên trang chủ Mini App](/img/admin/21-trang-chu-thong-ke.png)
 
 * Chọn các bài viết nổi bật để hiển thị ở trang chủ Mini App.
 
@@ -165,6 +203,8 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 ## **7.1 Banner - Danh sách banner**
 
+![Danh sách banner](/img/admin/22-danh-sach-banner.png)
+
 * Quản lý banner hiển thị trên Mini App: tải ảnh, tiêu đề, đường dẫn liên kết khi bấm vào, vị trí, thứ tự, ẩn/hiện.
 
 * Có thể xóa từng banner hoặc xóa nhiều banner cùng lúc.
@@ -174,10 +214,14 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 ## **7.2 Banner - Vị trí banner**
 
+![Cấu hình vị trí banner](/img/admin/23-vi-tri-banner.png)
+
 * Khai báo các vị trí đặt banner: tên, mã, nền tảng áp dụng, nhóm hiển thị, số lượng banner tối đa/vị trí, thứ tự, trạng thái.
 
 
 ## **7.3 Dịch vụ tiện ích**
+
+![Danh sách dịch vụ tiện ích](/img/admin/24-dich-vu-tien-ich.png)
 
 * Cấu hình lưới tiện ích (icon truy cập nhanh) ở trang chủ Mini App: icon, tên hiển thị, liên kết đến (danh mục tin tức, bài viết, hoặc link ngoài).
 
