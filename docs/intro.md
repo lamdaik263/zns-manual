@@ -1,11 +1,11 @@
 ---
 id: intro
 slug: /
-title: ZNS Manual
+title: Hướng dẫn HCC
 sidebar_label: Trang chủ
 ---
 
-# ZNS Manual
+# Hướng dẫn HCC
 
 Tài liệu hướng dẫn sử dụng Zalo ZNS cho người dùng cuối, doanh nghiệp và developer.
 

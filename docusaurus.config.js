@@ -2,10 +2,10 @@ const {themes: prismThemes} = require('prism-react-renderer');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'ZNS Manual',
+  title: 'Hướng dẫn HCC',
   tagline: 'Hướng dẫn sử dụng Zalo ZNS cho doanh nghiệp và developer',
   favicon: 'img/favicon.svg',
-  url: 'https://zns-manual.vercel.app',
+  url: 'https://huong-dan-hcc.vercel.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   markdown: {hooks: {onBrokenMarkdownLinks: 'warn'}},
@@ -19,8 +19,8 @@ const config = {
   themeConfig: {
     image: 'img/zns-manual-social-card.svg',
     navbar: {
-      title: 'ZNS Manual',
-      logo: {alt: 'ZNS Manual', src: 'img/favicon.svg'},
+      title: 'Hướng dẫn HCC',
+      logo: {alt: 'Hướng dẫn HCC', src: 'img/favicon.svg'},
       items: [
         {type: 'docSidebar', sidebarId: 'userGuide', position: 'left', label: 'Hướng dẫn'},
         {type: 'docSidebar', sidebarId: 'admin', position: 'left', label: 'Admin HCC'},
@@ -28,7 +28,7 @@ const config = {
         {href: 'https://developers.zalo.me/', label: 'Tài liệu API ↗', position: 'right'},
       ],
     },
-    footer: {style: 'light', copyright: `ZNS Manual · Cập nhật ${new Date().getFullYear()}`},
+    footer: {style: 'light', copyright: `Hướng dẫn HCC · Cập nhật ${new Date().getFullYear()}`},
     prism: {theme: prismThemes.github, darkTheme: prismThemes.dracula},
   },
 };
