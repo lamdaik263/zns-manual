@@ -230,11 +230,18 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 ## **7.4 Thông báo**
 
+![Danh sách thông báo](/img/admin/25-thong-bao.png)
+
 * Soạn và quản lý thông báo hiển thị/đẩy tới người dùng Mini App: loại, tiêu đề, nội dung, liên kết khi bấm vào, ẩn/hiện.
 
 > **Cách tự kiểm tra:** Mở đúng màn hình **Danh sách Thông báo** và đối chiếu các trường được mô tả trong phần này.
 
 ## **7.5 Cấu hình đơn vị (Site settings)**
+
+![Cấu hình đơn vị](/img/admin/26-cau-hinh-don-vi.png)
+![Chi tiết cấu hình đơn vị](/img/admin/27-cau-hinh-don-vi-chi-tiet.png)
+![Cấu hình Zalo của đơn vị](/img/admin/28-cau-hinh-don-vi-zalo.png)
+![Lưu cấu hình đơn vị](/img/admin/29-cau-hinh-don-vi-luu.png)
 
 * Cấu hình các thông tin chung của đơn vị theo từng nhóm (VD: thông tin chung, cấu hình kỹ thuật liên quan ZNS...).
 
@@ -246,6 +253,8 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 ## **8.1 Kết nối OA & ZCA**
 
+![Màn hình kết nối OA và ZCA](/img/admin/30-ket-noi-oa-zca.png)
+
 * Quản lý kết nối với Official Account dùng để gửi ZNS: trạng thái kết nối, hạn mức gửi trong ngày.
 
 * Có thể kết nối mới, làm mới token khi hết hạn, chỉnh sửa thông tin kết nối.
@@ -254,11 +263,15 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 ## **8.2 Mẫu tin ZNS**
 
+![Danh sách mẫu tin ZNS](/img/admin/31-mau-tin-zns.png)
+
 * Danh sách mẫu tin nhắn ZNS: tên, loại, mục đích sử dụng, mã Template ID, trạng thái duyệt, danh sách tham số của mẫu.
 
 > **Cách tự kiểm tra:** Mở đúng màn hình **Danh sách Mẫu tin ZNS** và đối chiếu các trường được mô tả trong phần này.
 
 ## **8.3 Phối kênh**
+
+![Danh sách phối kênh](/img/admin/32-phoi-kenh.png)
 
 * Thiết lập quy tắc chọn kênh gửi tin: kênh mặc định, kênh dự phòng, mức ưu tiên, điều kiện áp dụng.
 
@@ -266,17 +279,24 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 ## **8.4 Kịch bản tự động**
 
+![Danh sách kịch bản tự động](/img/admin/33-kich-ban-tu-dong.png)
+
 * Thiết lập kịch bản gửi tin tự động theo sự kiện: sự kiện kích hoạt, mẫu tin sử dụng, đối tượng nhận, thời gian trễ, bật/tắt.
 
 > **Cách tự kiểm tra:** Mở đúng màn hình **Danh sách Kịch bản tự động** và đối chiếu các trường được mô tả trong phần này.
 
 ## **8.5 Đối tượng nhận**
 
+![Danh sách đối tượng nhận](/img/admin/34-doi-tuong-nhan.png)
+
 * Danh sách/nhóm người nhận tin ZNS: tên, số điện thoại, xã, thôn, nhóm, trạng thái quan tâm OA.
 
 > **Cách tự kiểm tra:** Mở đúng màn hình **Danh sách Đối tượng nhận** và đối chiếu các trường được mô tả trong phần này.
 
 ## **8.6 Gửi tin ZNS**
+
+![Màn hình gửi tin ZNS](/img/admin/35-gui-tin-zns.png)
+![Lịch sử gửi tin ZNS](/img/admin/36-lich-su-gui-tin.png)
 
 * "Gửi tin mới": chọn danh sách người nhận, chọn mẫu tin và điền các tham số cần thiết rồi gửi.
 
@@ -286,17 +306,23 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 ## **8.7 Hàng đợi gửi**
 
+![Hàng đợi gửi](/img/admin/37-hang-doi-gui.png)
+
 * Theo dõi tiến trình gửi tin theo thời gian thực: từng tin nhắn, trạng thái, số lần thử lại; có thể gửi lại hoặc hủy tin đang chờ.
 
 > **Cách tự kiểm tra:** Mở đúng màn hình **Màn hình Hàng đợi gửi** và đối chiếu các trường được mô tả trong phần này.
 
 ## **8.8 Nạp và quản lý credit**
 
+![Quản lý credit ZNS](/img/admin/38-credit-zns.png)
+
 * Xem lịch sử giao dịch credit dùng để gửi ZNS: thời gian, nội dung, số tiền, số dư sau giao dịch, loại tin nhắn.
 
 > **Cách tự kiểm tra:** Mở đúng màn hình **Màn hình Credit ZNS** và đối chiếu các trường được mô tả trong phần này.
 
 ## **8.9 Báo cáo và lịch sử gửi**
+
+![Báo cáo và lịch sử gửi](/img/admin/39-bao-cao-lich-su-gui.png)
 
 * Xem báo cáo phân tích: mã lỗi, mô tả, số lượng, thời gian, mẫu tin, kênh gửi, chi phí, số lượt bấm vào tin.
 
@@ -305,6 +331,8 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 # **9\. Hệ thống**
 
 ## **9.1 Tài khoản & phân quyền**
+
+![Tài khoản và phân quyền](/img/admin/40-tai-khoan-phan-quyen.png)
 
 * "Danh sách tài khoản": tạo/sửa tài khoản quản trị (email, họ tên, mã nhân viên, phòng ban, vai trò), khóa/mở tài khoản, đặt lại mật khẩu.
 
@@ -318,11 +346,15 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 ## **9.2 Phòng ban**
 
+![Danh sách phòng ban](/img/admin/41-phong-ban.png)
+
 * Quản lý danh sách phòng ban dùng để phân nhóm tài khoản/cán bộ: tên, mã, trưởng phòng, trạng thái hoạt động.
 
 > **Cách tự kiểm tra:** Mở đúng màn hình **Danh sách Phòng ban** và đối chiếu các trường được mô tả trong phần này.
 
 ## **9.3 Nhật ký xuất dữ liệu**
+
+![Nhật ký xuất dữ liệu](/img/admin/42-nhat-ky-xuat-du-lieu.png)
 
 * Nhật ký ghi lại các lần xuất dữ liệu ra khỏi hệ thống: thời gian, người thực hiện, loại dữ liệu, số dòng, điều kiện lọc đã dùng, địa chỉ IP.
 
@@ -334,6 +366,8 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 ## **10.1 Quản lý doanh nghiệp (đơn vị)**
 
+![Quản lý doanh nghiệp](/img/admin/43-quan-ly-doanh-nghiep.png)
+
 * Danh sách toàn bộ đơn vị (xã/phường) đang sử dụng hệ thống: tên, mã, loại, trạng thái.
 
 * Xem chi tiết một đơn vị: thông tin cấu hình Zalo App ID/OA ID, quy trình khởi tạo cơ sở dữ liệu riêng cho đơn vị, chỉnh sửa thông tin.
@@ -343,6 +377,8 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 > **Cách tự kiểm tra:** Mở đúng màn hình **Danh sách Doanh nghiệp và màn hình chi tiết** và đối chiếu các trường được mô tả trong phần này.
 
 ## **10.2 Nhật ký lỗi hệ thống**
+
+![Nhật ký lỗi hệ thống](/img/admin/44-nhat-ky-loi.png)
 
 * Bảng theo dõi lỗi phát sinh trên toàn hệ thống (không giới hạn theo một đơn vị): thông điệp lỗi, mã yêu cầu, đơn vị bị ảnh hưởng, số lần xảy ra, trạng thái xử lý.
 
