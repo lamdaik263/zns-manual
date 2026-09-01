@@ -74,7 +74,7 @@ Zalo có thể yêu cầu điền biểu mẫu hỗ trợ tại [go.zalo.me/zbs-
 
 ## Mini App không có khách hàng
 
-**Cách xử lý:** Kiểm tra khách hàng có nguồn Mini App, đang hoạt động, có dữ liệu Zalo và thuộc đúng doanh nghiệp.
+**Cách xử lý:** Kiểm tra khách hàng có nguồn Mini App, đang hoạt động, có dữ liệu Zalo và thuộc đúng đơn vị.
 
 ## Khi nào cần gửi đội ngũ hỗ trợ?
 

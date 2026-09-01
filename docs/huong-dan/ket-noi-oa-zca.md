@@ -2,7 +2,7 @@
 
 ## Mục đích
 
-Cho phép hệ thống sử dụng OA của doanh nghiệp để gửi tin nhắn ZNS.
+Cho phép hệ thống sử dụng OA của đơn vị để gửi tin nhắn ZNS.
 
 ## Các bước thực hiện
 

@@ -195,7 +195,7 @@ Không đặt nút là `TRA CỨU HỒ SƠ` nhưng lại dẫn đến một bài
 
 Chọn theo đích đến thật:
 
-- Website của OA/đơn vị: **Đến trang của doanh nghiệp**.
+- Website của OA/đơn vị: **Đến trang của đơn vị**.
 - Trang OA: **Đến trang thông tin OA**.
 - Bài viết trên OA: **Đến bài viết của OA**.
 - Website hoặc Mini App thuộc đơn vị khác: **Đến trang web/Zalo Mini App khác**.
@@ -252,7 +252,7 @@ Vui lòng nhấn nút “TRA CỨU HỒ SƠ” bên dưới để kiểm tra tì
 
 ```text
 Tên nút: TRA CỨU HỒ SƠ
-Loại CTA: Đến trang của doanh nghiệp
+Loại CTA: Đến trang của đơn vị
 URL: https://dichvucong.hungyen.gov.vn/dich-vu-cong/tra-cuu
 ```
 

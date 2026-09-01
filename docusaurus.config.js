@@ -3,7 +3,7 @@ const {themes: prismThemes} = require('prism-react-renderer');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Hướng dẫn HCC',
-  tagline: 'Hướng dẫn sử dụng Zalo ZNS cho doanh nghiệp và developer',
+  tagline: 'Hướng dẫn sử dụng Zalo ZNS cho đơn vị và developer',
   favicon: 'img/favicon.svg',
   url: 'https://huong-dan-hcc.vercel.app',
   baseUrl: '/',

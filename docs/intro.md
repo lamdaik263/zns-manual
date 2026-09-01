@@ -7,7 +7,7 @@ sidebar_label: Trang chủ
 
 # Hướng dẫn HCC
 
-Tài liệu hướng dẫn sử dụng Zalo ZNS cho người dùng cuối, doanh nghiệp và developer.
+Tài liệu hướng dẫn sử dụng Zalo ZNS cho người dùng cuối, đơn vị và developer.
 
 > Zalo hiện gọi dịch vụ là **ZBS Template Message**; giao diện hệ thống vẫn có thể hiển thị tên **ZNS**.
 

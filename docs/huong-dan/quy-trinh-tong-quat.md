@@ -12,7 +12,7 @@
 - OA đã kết nối và token còn hiệu lực.
 - Mẫu tin đã được phê duyệt và có mã template trên Zalo.
 - Người nhận có số điện thoại hợp lệ hoặc dữ liệu Zalo phù hợp.
-- Doanh nghiệp còn Credit nếu mẫu tin có tính phí.
+- Đơn vị còn Credit nếu mẫu tin có tính phí.
 - Nội dung và các biến đã được kiểm tra.
 
 ## Hai kênh gửi

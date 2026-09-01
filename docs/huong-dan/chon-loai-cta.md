@@ -4,11 +4,11 @@ Chọn đúng loại theo **đích đến thật** của nút. Mã loại đư�
 
 | Mã | Loại CTA | Khi dùng |
 | --- | --- | --- |
-| 1 | Đến trang của doanh nghiệp | Website thuộc OA/đơn vị — +100đ |
+| 1 | Đến trang của đơn vị | Website thuộc OA/đơn vị — +100đ |
 | 2 | Gọi điện | Số điện thoại — +200đ |
 | 3 | Đến trang thông tin OA | Trang OA — +0/100đ |
-| 4 | Đến ứng dụng Zalo Mini App của doanh nghiệp | Mini App của OA/đơn vị — +0/100đ |
-| 5 | Đến trang ứng dụng của doanh nghiệp | Ứng dụng thuộc đơn vị — +600đ |
+| 4 | Đến ứng dụng Zalo Mini App của đơn vị | Mini App của OA/đơn vị — +0/100đ |
+| 5 | Đến trang ứng dụng của đơn vị | Ứng dụng thuộc đơn vị — +600đ |
 | 6 | Đến trang phân phối sản phẩm | Trang phân phối sản phẩm — +0/100đ |
 | 7 | Đến trang web/Zalo Mini App khác | Domain không thuộc OA — +500đ |
 | 8 | Đến ứng dụng khác | Ứng dụng không thuộc đơn vị — +1.000đ |
@@ -19,8 +19,8 @@ Chọn đúng loại theo **đích đến thật** của nút. Mã loại đư�
 
 ## Ví dụ quan trọng
 
-Link bài viết trên `bocongan.gov.vn` phải chọn **mã 7**, không chọn “Đến trang của doanh nghiệp”. Chọn sai phân loại có thể khiến Zalo từ chối mẫu dù URL vẫn mở được.
+Link bài viết trên `bocongan.gov.vn` phải chọn **mã 7**, không chọn “Đến trang của đơn vị”. Chọn sai phân loại có thể khiến Zalo từ chối mẫu dù URL vẫn mở được.
 
-> **Cách tự chọn CTA:** Xác định đích đến trước, rồi chọn loại tương ứng: website của đơn vị → **Đến trang của doanh nghiệp**; trang OA → **Đến trang thông tin OA**; bài viết OA → **Đến bài viết của OA**; website/Mini App khác → **Đến trang web/Zalo Mini App khác**; số điện thoại → **Gọi điện**. Cuối cùng mở thử URL bằng cửa sổ riêng tư.
+> **Cách tự chọn CTA:** Xác định đích đến trước, rồi chọn loại tương ứng: website của đơn vị → **Đến trang của đơn vị**; trang OA → **Đến trang thông tin OA**; bài viết OA → **Đến bài viết của OA**; website/Mini App khác → **Đến trang web/Zalo Mini App khác**; số điện thoại → **Gọi điện**. Cuối cùng mở thử URL bằng cửa sổ riêng tư.
 
 > Không đưa mã công dân, thông tin sức khỏe, ảnh nhận diện hoặc thông tin nhạy cảm vào một mẫu truyền thông chung nếu không thật sự cần thiết.

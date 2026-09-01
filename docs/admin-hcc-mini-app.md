@@ -20,7 +20,7 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 * Truy cập địa chỉ trang quản trị, nhập Email và Mật khẩu được cấp.
 
-* Nếu tài khoản được gán cho nhiều đơn vị (nhiều xã/phường), hệ thống sẽ hiển thị thêm bước "Chọn doanh nghiệp" — chọn đúng đơn vị cần làm việc.
+* Nếu tài khoản được gán cho nhiều đơn vị (nhiều xã/phường), hệ thống sẽ hiển thị thêm bước "Chọn đơn vị" — chọn đúng đơn vị cần làm việc.
 
 
 ## **1.2 Chuyển đổi đơn vị đang quản lý**
@@ -364,9 +364,9 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 # **10\. Superadmin (chỉ dành cho quản trị hệ thống cấp cao)**
 
-## **10.1 Quản lý doanh nghiệp (đơn vị)**
+## **10.1 Quản lý đơn vị**
 
-![Quản lý doanh nghiệp](/img/admin/43-quan-ly-doanh-nghiep.png)
+![Quản lý đơn vị](/img/admin/43-quan-ly-doanh-nghiep.png)
 
 * Danh sách toàn bộ đơn vị (xã/phường) đang sử dụng hệ thống: tên, mã, loại, trạng thái.
 
@@ -374,7 +374,7 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 * Bấm "Vào quản lý" để truy cập vào hệ thống quản trị của đơn vị đó như chính đơn vị (chế độ giả lập/impersonate) — dùng khi cần hỗ trợ đơn vị. Bấm "Thoát" trên thanh thông báo để quay lại.
 
-> **Cách tự kiểm tra:** Mở đúng màn hình **Danh sách Doanh nghiệp và màn hình chi tiết** và đối chiếu các trường được mô tả trong phần này.
+> **Cách tự kiểm tra:** Mở đúng màn hình **Danh sách đơn vị và màn hình chi tiết** và đối chiếu các trường được mô tả trong phần này.
 
 ## **10.2 Nhật ký lỗi hệ thống**
 
