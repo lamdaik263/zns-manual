@@ -50,6 +50,7 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 ## **2.1 Tổng quan số liệu**
 
 ![Tổng quan Dashboard](/img/admin/04-dashboard.png)
+![Biểu đồ và hoạt động Dashboard](/img/admin/04-dashboard-charts.png)
 
 * Hiển thị các chỉ số tổng quan của đơn vị (thẻ KPI), biểu đồ hoạt động theo thời gian, bản đồ vị trí và bảng số liệu nổi bật.
 
@@ -61,7 +62,6 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 * Đây là màn hình chỉ xem, không có thao tác chỉnh sửa.
 
-> 📷 **Ảnh hiện có:** Đã có ảnh Dashboard. Chỉ cần chụp lại nếu giao diện thực tế sau commit mới khác ảnh đang hiển thị.
 
 
 # **3\. Hành chính công**
@@ -109,7 +109,8 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 ## **3.5 Lĩnh vực thủ tục hành chính**
 
-> 📷 **Cần bổ sung ảnh:** Màn hình danh sách lĩnh vực TTHC, bộ lọc và menu thao tác Bật/Tắt, Sửa, Xóa.
+![Danh sách lĩnh vực TTHC](/img/admin/05-linh-vuc-tthc.png)
+![Form thêm lĩnh vực TTHC](/img/admin/06-them-linh-vuc-tthc.png)
 
 * Khai báo các lĩnh vực TTHC được hiển thị dưới dạng bộ lọc trên Mini App.
 
@@ -120,7 +121,7 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 ## **3.6 Thủ tục hành chính**
 
-> 📷 **Cần bổ sung ảnh:** Danh sách thủ tục và form thêm/sửa, đặc biệt các trường Link nộp trực tuyến, Cách mở và Ưu tiên hiển thị.
+![Danh sách thủ tục hành chính](/img/admin/07-thu-tuc-hanh-chinh.png)
 
 * Quản lý nội dung tra cứu TTHC trên Mini App: tên, mã TTHC quốc gia, lĩnh vực, mức độ dịch vụ công và tóm tắt.
 
@@ -133,7 +134,7 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 ## **3.7 Hỏi đáp dịch vụ công**
 
-> 📷 **Cần bổ sung ảnh:** Danh sách câu hỏi và form Trả lời, gồm trạng thái, Công khai lên Mini App và Ghim thành FAQ.
+![Danh sách hỏi đáp dịch vụ công](/img/admin/08-hoi-dap-dich-vu-cong.png)
 
 * Tiếp nhận câu hỏi người dân gửi từ Mini App, tìm kiếm theo mã, tên, số điện thoại hoặc nội dung câu hỏi.
 
@@ -201,6 +202,7 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 ## **5.1 Xử lý phản ánh - kiến nghị**
 
 ![Xử lý phản ánh kiến nghị](/img/admin/15-phan-anh-kien-nghi.png)
+![Form xử lý phản ánh kiến nghị](/img/admin/15-phan-anh-kien-nghi-xu-ly.png)
 
 * Danh sách phản ánh, kiến nghị của người dân gửi qua Mini App: người gửi, tiêu đề, lĩnh vực, mức độ ưu tiên (Thấp/Bình thường/Cao).
 
@@ -212,14 +214,13 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 * Khi xử lý có thể cập nhật mức ưu tiên, gán người xử lý và nhập nội dung phản hồi công dân.
 
-> 📷 **Nên cập nhật ảnh:** Ảnh xử lý phản ánh hiện có chưa thể hiện tọa độ/Google Maps, người xử lý và nội dung phản hồi.
 
 
 ## **5.2 Truyền thanh thông minh**
 
 ### **5.2.1 Kênh truyền thanh**
 
-> 📷 **Cần bổ sung ảnh:** Màn hình danh sách kênh và form thêm/sửa kênh, gồm Stream URL, icon, thứ tự và trạng thái.
+![Danh sách kênh truyền thanh](/img/admin/25-kenh-truyen-thanh.png)
 
 * Tạo và quản lý các kênh hiển thị trên Mini App: tên, slug, mô tả, icon, địa chỉ stream, thứ tự và trạng thái hoạt động.
 
@@ -227,7 +228,7 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 ### **5.2.2 Quản lý bản tin**
 
-> 📷 **Cần bổ sung ảnh:** Màn hình danh sách bản tin và form thêm/sửa, gồm file âm thanh/URL âm thanh, thời gian phát và đánh dấu khẩn.
+![Danh sách bản tin truyền thanh](/img/admin/26-ban-tin-truyen-thanh.png)
 
 * Tạo bản tin truyền thanh với tiêu đề, kênh, nhóm nội dung, tóm tắt và nội dung đọc kèm.
 
@@ -263,6 +264,7 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 ![Bài viết nổi bật trên trang chủ Mini App](/img/admin/19-trang-chu-bai-noi-bat.png)
 ![Hàng nút tắt trên trang chủ Mini App](/img/admin/20-trang-chu-nut-tat.png)
 ![Khối thống kê trên trang chủ Mini App](/img/admin/21-trang-chu-thong-ke.png)
+![Cấu hình khối truyền thanh trên trang chủ](/img/admin/19-noi-dung-truyen-thanh.png)
 
 * Chọn các bài viết nổi bật để hiển thị ở trang chủ Mini App.
 
@@ -272,7 +274,6 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 * Các kênh truyền thanh trong khối có thể thêm, xóa và sắp xếp thứ tự riêng cho trang chủ.
 
-> 📷 **Nên bổ sung ảnh:** Khu vực cấu hình khối Truyền thanh trong màn hình Nội dung trang chủ Mini App.
 
 
 
@@ -307,7 +308,6 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 * Kéo-thả để sắp xếp thứ tự, bật/tắt hiển thị từng mục.
 
-> 📷 **Nên cập nhật ảnh:** Ảnh hiện có chưa thể hiện rõ mô tả, tải icon/Font Icon và liên kết tới lĩnh vực hoặc thủ tục TTHC.
 
 
 ## **7.4 Thông báo**
@@ -426,7 +426,6 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 * Danh mục quyền mới bao gồm các màn hình lĩnh vực TTHC, thủ tục hành chính, hỏi đáp dịch vụ công và truyền thanh thông minh; mỗi nhóm có quyền xem, thêm, sửa, xóa hoặc thao tác riêng như xuất bản/trả lời.
 
-> 📷 **Nên bổ sung ảnh:** Màn hình Vai trò & quyền hoặc Phân quyền tài khoản, có các nhóm quyền mới.
 
 *Lưu ý: Chỉ tài khoản có quyền "users.assign\_permission" mới thấy và thao tác được màn hình Phân quyền.*
 
