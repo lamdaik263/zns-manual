@@ -61,6 +61,8 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 * Đây là màn hình chỉ xem, không có thao tác chỉnh sửa.
 
+> 📷 **Ảnh hiện có:** Đã có ảnh Dashboard. Chỉ cần chụp lại nếu giao diện thực tế sau commit mới khác ảnh đang hiển thị.
+
 
 # **3\. Hành chính công**
 
@@ -107,6 +109,8 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 ## **3.5 Lĩnh vực thủ tục hành chính**
 
+> 📷 **Cần bổ sung ảnh:** Màn hình danh sách lĩnh vực TTHC, bộ lọc và menu thao tác Bật/Tắt, Sửa, Xóa.
+
 * Khai báo các lĩnh vực TTHC được hiển thị dưới dạng bộ lọc trên Mini App.
 
 * Mỗi lĩnh vực gồm tên, mã, thứ tự hiển thị và trạng thái **Đang bật/Đang tắt**; danh sách có thêm số lượng thủ tục thuộc lĩnh vực.
@@ -115,6 +119,8 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 
 ## **3.6 Thủ tục hành chính**
+
+> 📷 **Cần bổ sung ảnh:** Danh sách thủ tục và form thêm/sửa, đặc biệt các trường Link nộp trực tuyến, Cách mở và Ưu tiên hiển thị.
 
 * Quản lý nội dung tra cứu TTHC trên Mini App: tên, mã TTHC quốc gia, lĩnh vực, mức độ dịch vụ công và tóm tắt.
 
@@ -126,6 +132,8 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 
 ## **3.7 Hỏi đáp dịch vụ công**
+
+> 📷 **Cần bổ sung ảnh:** Danh sách câu hỏi và form Trả lời, gồm trạng thái, Công khai lên Mini App và Ghim thành FAQ.
 
 * Tiếp nhận câu hỏi người dân gửi từ Mini App, tìm kiếm theo mã, tên, số điện thoại hoặc nội dung câu hỏi.
 
@@ -204,16 +212,22 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 * Khi xử lý có thể cập nhật mức ưu tiên, gán người xử lý và nhập nội dung phản hồi công dân.
 
+> 📷 **Nên cập nhật ảnh:** Ảnh xử lý phản ánh hiện có chưa thể hiện tọa độ/Google Maps, người xử lý và nội dung phản hồi.
+
 
 ## **5.2 Truyền thanh thông minh**
 
 ### **5.2.1 Kênh truyền thanh**
+
+> 📷 **Cần bổ sung ảnh:** Màn hình danh sách kênh và form thêm/sửa kênh, gồm Stream URL, icon, thứ tự và trạng thái.
 
 * Tạo và quản lý các kênh hiển thị trên Mini App: tên, slug, mô tả, icon, địa chỉ stream, thứ tự và trạng thái hoạt động.
 
 * Có thể sửa/xóa kênh; địa chỉ stream được mở ở tab mới để kiểm tra.
 
 ### **5.2.2 Quản lý bản tin**
+
+> 📷 **Cần bổ sung ảnh:** Màn hình danh sách bản tin và form thêm/sửa, gồm file âm thanh/URL âm thanh, thời gian phát và đánh dấu khẩn.
 
 * Tạo bản tin truyền thanh với tiêu đề, kênh, nhóm nội dung, tóm tắt và nội dung đọc kèm.
 
@@ -258,6 +272,8 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 * Các kênh truyền thanh trong khối có thể thêm, xóa và sắp xếp thứ tự riêng cho trang chủ.
 
+> 📷 **Nên bổ sung ảnh:** Khu vực cấu hình khối Truyền thanh trong màn hình Nội dung trang chủ Mini App.
+
 
 
 
@@ -290,6 +306,8 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 * Khi bấm vào tiện ích, có thể liên kết đến danh mục tin tức, bài viết, lĩnh vực/thủ tục hành chính hoặc một đường dẫn ngoài.
 
 * Kéo-thả để sắp xếp thứ tự, bật/tắt hiển thị từng mục.
+
+> 📷 **Nên cập nhật ảnh:** Ảnh hiện có chưa thể hiện rõ mô tả, tải icon/Font Icon và liên kết tới lĩnh vực hoặc thủ tục TTHC.
 
 
 ## **7.4 Thông báo**
@@ -407,6 +425,8 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 * "Phân quyền" (mở từ trang Vai trò & quyền): tùy chỉnh quyền riêng cho một tài khoản cụ thể, có nút "Áp mẫu theo vai trò" để lấy nhanh theo vai trò.
 
 * Danh mục quyền mới bao gồm các màn hình lĩnh vực TTHC, thủ tục hành chính, hỏi đáp dịch vụ công và truyền thanh thông minh; mỗi nhóm có quyền xem, thêm, sửa, xóa hoặc thao tác riêng như xuất bản/trả lời.
+
+> 📷 **Nên bổ sung ảnh:** Màn hình Vai trò & quyền hoặc Phân quyền tài khoản, có các nhóm quyền mới.
 
 *Lưu ý: Chỉ tài khoản có quyền "users.assign\_permission" mới thấy và thao tác được màn hình Phân quyền.*
 
