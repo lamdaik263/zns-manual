@@ -42,6 +42,8 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 * Đăng xuất: bấm avatar → "Đăng xuất".
 
+* Màn hình đăng nhập hỗ trợ ghi nhớ đăng nhập, xem/ẩn mật khẩu và chọn đơn vị khi một tài khoản được gán cho nhiều đơn vị. Logo và tên đơn vị hiện tại được nạp động trên header.
+
 
 # **2\. Trang chủ (Dashboard)**
 
@@ -50,6 +52,12 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 ![Tổng quan Dashboard](/img/admin/04-dashboard.png)
 
 * Hiển thị các chỉ số tổng quan của đơn vị (thẻ KPI), biểu đồ hoạt động theo thời gian, bản đồ vị trí và bảng số liệu nổi bật.
+
+* Chọn kỳ báo cáo **7, 30 hoặc 90 ngày gần nhất** để cập nhật toàn bộ số liệu.
+
+* Dashboard gồm 9 thẻ KPI: người truy cập, tài khoản Mini App, tin tức, thông báo, ZNS, Broadcast, phiếu lấy số, phản ánh mới và phản ánh đã xử lý.
+
+* Bên dưới là biểu đồ lượt truy cập, biểu đồ phản ánh theo ngày/lĩnh vực, cùng các khối hoạt động gần đây, phản ánh mới nhất và lịch công tác sắp tới.
 
 * Đây là màn hình chỉ xem, không có thao tác chỉnh sửa.
 
@@ -95,6 +103,35 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 * Chọn trạng thái "Đã công bố" để hiển thị lịch công khai trên Mini App cho người dân xem, hoặc "Chưa công bố" để chỉ lưu nội bộ.
 
 * Có thể lọc lịch theo khoảng ngày.
+
+
+## **3.5 Lĩnh vực thủ tục hành chính**
+
+* Khai báo các lĩnh vực TTHC được hiển thị dưới dạng bộ lọc trên Mini App.
+
+* Mỗi lĩnh vực gồm tên, mã, thứ tự hiển thị và trạng thái **Đang bật/Đang tắt**; danh sách có thêm số lượng thủ tục thuộc lĩnh vực.
+
+* Có thể tìm kiếm theo tên/mã, lọc chỉ các lĩnh vực đang bật, thêm mới, sửa, bật/tắt hoặc xóa.
+
+
+## **3.6 Thủ tục hành chính**
+
+* Quản lý nội dung tra cứu TTHC trên Mini App: tên, mã TTHC quốc gia, lĩnh vực, mức độ dịch vụ công và tóm tắt.
+
+* Khai báo hồ sơ cần chuẩn bị, lệ phí, thời gian xử lý, nơi nộp và căn cứ pháp lý.
+
+* Có thể thêm **link nộp trực tuyến**, chọn cách mở link, đặt thứ tự và đánh dấu thủ tục nổi bật.
+
+* Danh sách hỗ trợ tìm kiếm theo tên/mã, lọc theo lĩnh vực hoặc trạng thái; có thể thêm, sửa, bật/tắt và xóa thủ tục.
+
+
+## **3.7 Hỏi đáp dịch vụ công**
+
+* Tiếp nhận câu hỏi người dân gửi từ Mini App, tìm kiếm theo mã, tên, số điện thoại hoặc nội dung câu hỏi.
+
+* Theo dõi các trạng thái **Mới**, **Đang xử lý**, **Đã trả lời** và **Từ chối**; dashboard đầu mục hiển thị số lượng theo từng trạng thái.
+
+* Mở từng câu hỏi để trả lời, cập nhật trạng thái, công khai lên Mini App hoặc ghim thành **Câu hỏi thường gặp (FAQ)** và đặt thứ tự hiển thị.
 
 
 
@@ -163,6 +200,27 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 * Bật "Công khai" để hiển thị nội dung phản ánh và câu trả lời cho mọi người dân xem trên Mini App, để "Chưa công khai" nếu chỉ xử lý nội bộ.
 
+* Khi phản ánh có vị trí, có thể xem địa chỉ, tọa độ và mở trực tiếp trên Google Maps; nếu người dân gửi link bản đồ thì link đó cũng được hiển thị để đối chiếu.
+
+* Khi xử lý có thể cập nhật mức ưu tiên, gán người xử lý và nhập nội dung phản hồi công dân.
+
+
+## **5.2 Truyền thanh thông minh**
+
+### **5.2.1 Kênh truyền thanh**
+
+* Tạo và quản lý các kênh hiển thị trên Mini App: tên, slug, mô tả, icon, địa chỉ stream, thứ tự và trạng thái hoạt động.
+
+* Có thể sửa/xóa kênh; địa chỉ stream được mở ở tab mới để kiểm tra.
+
+### **5.2.2 Quản lý bản tin**
+
+* Tạo bản tin truyền thanh với tiêu đề, kênh, nhóm nội dung, tóm tắt và nội dung đọc kèm.
+
+* Có thể tải file âm thanh hoặc nhập URL âm thanh, khai báo thời lượng, thời gian phát và đánh dấu bản tin khẩn.
+
+* Danh sách có bộ lọc theo tiêu đề, kênh và trạng thái; hỗ trợ nghe thử, sửa, xóa và chuyển trạng thái **Bản nháp/Đã xuất bản**.
+
 
 # **6\. Tin tức**
 
@@ -196,6 +254,10 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 * Cấu hình "Hàng nút tắt" (dãy icon truy cập nhanh) và các khối thống kê của xã hiển thị trên trang chủ (nhãn, giá trị, biểu tượng, màu sắc, ẩn/hiện).
 
+* Có thể cấu hình khối **Truyền thanh** trên trang chủ: tiêu đề, bật/tắt hiển thị, số lượng kênh và các thẻ nội dung; mỗi thẻ có tiêu đề, mô tả, nhãn, giao diện màu và kênh liên kết.
+
+* Các kênh truyền thanh trong khối có thể thêm, xóa và sắp xếp thứ tự riêng cho trang chủ.
+
 
 
 
@@ -223,9 +285,11 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 
 ![Danh sách dịch vụ tiện ích](/img/admin/24-dich-vu-tien-ich.png)
 
-* Cấu hình lưới tiện ích (icon truy cập nhanh) ở trang chủ Mini App: icon, tên hiển thị, liên kết đến (danh mục tin tức, bài viết, hoặc link ngoài).
+* Cấu hình lưới tiện ích (icon truy cập nhanh) ở trang chủ Mini App: tên hiển thị, mô tả, icon tải lên hoặc Icon Font.
 
-* Kéo-thả để sắp xếp thứ tự, ẩn/hiện từng mục.
+* Khi bấm vào tiện ích, có thể liên kết đến danh mục tin tức, bài viết, lĩnh vực/thủ tục hành chính hoặc một đường dẫn ngoài.
+
+* Kéo-thả để sắp xếp thứ tự, bật/tắt hiển thị từng mục.
 
 
 ## **7.4 Thông báo**
@@ -246,6 +310,8 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 * Cấu hình các thông tin chung của đơn vị theo từng nhóm (VD: thông tin chung, cấu hình kỹ thuật liên quan ZNS...).
 
 * Mỗi mục có thể là văn bản, văn bản nhiều dòng hoặc ảnh tải lên. Bấm "Lưu" theo từng nhóm để áp dụng, hoặc "Hoàn tác" để hủy thay đổi chưa lưu.
+
+* Nhóm thông tin chung hỗ trợ tên đơn vị, logo, địa chỉ, điện thoại, hotline, email, giờ làm việc và các liên kết mạng xã hội; nhóm Mini App hỗ trợ nội dung tiêu đề, lời chào, thời tiết, icon phím tắt và các nội dung hiển thị trên trang chủ.
 
 > **Cách tự kiểm tra:** Mở đúng màn hình **Màn hình Cấu hình đơn vị** và đối chiếu các trường được mô tả trong phần này.
 
@@ -339,6 +405,8 @@ sidebar_label: Hướng dẫn Admin HCC Mini App
 * "Vai trò & quyền": xem bảng quyền mặc định của từng vai trò theo từng màn hình (chỉ xem).
 
 * "Phân quyền" (mở từ trang Vai trò & quyền): tùy chỉnh quyền riêng cho một tài khoản cụ thể, có nút "Áp mẫu theo vai trò" để lấy nhanh theo vai trò.
+
+* Danh mục quyền mới bao gồm các màn hình lĩnh vực TTHC, thủ tục hành chính, hỏi đáp dịch vụ công và truyền thanh thông minh; mỗi nhóm có quyền xem, thêm, sửa, xóa hoặc thao tác riêng như xuất bản/trả lời.
 
 *Lưu ý: Chỉ tài khoản có quyền "users.assign\_permission" mới thấy và thao tác được màn hình Phân quyền.*
 
